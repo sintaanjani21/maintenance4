@@ -1,0 +1,36 @@
+body {
+	background-color: #FFF84E;
+}
+
+h3 {
+	text-align: center;
+	margin-top: -180px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 37px;
+	color: #303030;
+}
+
+h5 {
+	text-align: center;
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 36px;
+    color: #1F1F1F;
+}
+
+/*for mobile*/
+@media (max-width: 480px) {
+	h3 {
+		margin-top: -40px;
+	}
+}
+
+/*for tablets*/
+@media (min-width: 481px) and (max-width: 1024px) {
+	h3 {
+		margin-top: -70px;
+	}
+}
